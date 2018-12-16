@@ -16,8 +16,8 @@ A new, faster way of Snapshot testing. Helps to verify that your view and its la
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SnappyShrimp/Sources/**/*'
+  s.source_files = 'SnappyShrimp/Sources/**/*.swift'
   s.resources = 'SnappyShrimp/Media.xcassets'
   s.frameworks = 'UIKit', 'XCTest'
-  s.dependency 'FBSnapshotTestCase', '~> 2.1.4'
+  s.dependency 'iOSSnapshotTestCase', '~> 4.0.1'
 end
